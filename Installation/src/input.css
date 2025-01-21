@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn{
+    @apply px-4 py-1 border-2 font-medium rounded-full text-sm hover:border-transparent hover:text-white duration-150 focus:ring-2 focus:ring-offset-2
+}
+
+.btn-purple{
+    @apply border-purple-300 text-purple-600 hover:bg-purple-600 focus:ring-purple-600
+}
+
+.btn-green{
+    @apply border-green-300 text-green-600 hover:bg-green-600 focus:ring-green-600
+}
