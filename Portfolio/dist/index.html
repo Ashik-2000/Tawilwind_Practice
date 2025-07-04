@@ -6,380 +6,328 @@
         <title>Document</title>
         <link rel="stylesheet" href="./output.css" />
     </head>
-    <body class="bg-gray-950">
+    <body>
         <!-- header start -->
-        <header
-            class="sticky top-0 w-full bg-gray-950/98 font-serif text-white shadow-md shadow-black"
-        >
-            <nav
-                class="mx-auto flex max-w-7xl flex-col items-center space-y-1.5 p-2 sm:flex-row sm:justify-between sm:py-4"
+        <div class="bg-white h-full w-full dark:bg-gray-950">
+            <header
+                class="sticky top-0 w-full font-serif text-gray-100 dark:text-gray-200"
             >
-                <div class="">
-                    <a
-                        href="#"
-                        class="text-theme text-2xl font-bold md:text-3xl lg:text-4xl"
-                        >PORTFOLIO</a
-                    >
-                </div>
-                <ul class="flex space-x-2 lg:space-x-5">
-                    <li>
-                        <a href="#" class="px-2 md:text-xl xl:text-2xl"
-                            >Projects</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#" class="px-2 md:text-xl xl:text-2xl"
-                            >Skills</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#" class="px-2 md:text-xl xl:text-2xl"
-                            >About</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#" class="px-2 md:text-xl xl:text-2xl"
-                            >Contact</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#" class="px-2 md:text-xl xl:text-2xl"
-                            >Theme</a
-                        >
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- header end -->
-        <div
-            class="mx-auto max-w-7xl bg-gray-950 p-2 text-white shadow-2xl shadow-black"
-        >
-            <!-- hero start -->
-            <div class="border-b border-gray-800 xl:flex xl:h-[90vh]">
-                <div
-                    class="flex w-full items-center justify-center p-4 xl:order-1"
+                <nav
+                    class="mx-auto flex max-w-7xl flex-col items-center space-y-1.5 bg-blue-500/95 p-2 shadow-[0px_5px_5px_0px_rgb(0,0,0,0.3)] sm:flex-row sm:justify-between sm:py-4 dark:bg-gray-950/98"
                 >
-                    <img
-                        src="../assets/hero.JPG"
-                        alt="#"
-                        class="xl:max-w-auto h-full max-h-80 w-auto rounded-full shadow-md shadow-gray-900 xl:max-h-100"
-                    />
-                </div>
-                <div
-                    class="xl:max-w-3.5/5 flex flex-col items-start justify-start p-2 pr-3 md:text-xl xl:justify-center"
-                >
-                    <p
-                        class="text-theme font-serif text-5xl md:text-7xl xl:text-9xl"
-                    >
-                        Ashikul Islam
-                    </p>
-                    <p class="mb-2 text-gray-500 lg:mb-4">
-                        Web Developer | React and Python Enthusiast
-                    </p>
-                    <p class="mb-4 text-justify lg:mb-7">
-                        <span class="text-effect text-2xl lg:text-4xl"
-                            >Hi,</span
+                    <div class="">
+                        <a
+                            href="#"
+                            class="dark:text-theme text-2xl font-bold text-white md:text-3xl lg:text-4xl"
+                            >PORTFOLIO</a
                         >
-                        I'm a programming enthusiast passionate about turning
-                        ideas into real-world web applications. Over the past 2
-                        years, I've been actively learning and building projects
-                        in web development — sharpening my skills through
-                        consistent practice and self-driven development. <br />
-                        I'm now looking for opportunities to contribute to
-                        impactful projects, collaborate with real teams, and
-                        grow into a high-value developer in the tech industry.
-                    </p>
-                    <a
-                        href="#"
-                        class="bg-effect mb-3 rounded-full px-3 py-1 font-serif text-[1rem] font-semibold text-white"
-                        >Download CV</a
-                    >
-                </div>
-            </div>
-            <!-- hero end -->
-
-            <!-- project start -->
-            <div class="border-b border-gray-800 py-4">
-                <h1
-                    class="text-effect mb-4 text-center font-serif text-4xl font-bold"
-                >
-                    PROJECTS
-                </h1>
-                <section
-                    class="mb-5 columns-1 gap-4 p-3 sm:columns-2 lg:columns-3"
-                >
+                    </div>
+                    <ul class="flex space-x-2 lg:space-x-5 items-center">
+                        <li>
+                            <a
+                                href="#"
+                                class="px-2 transition duration-200 hover:text-white hover:drop-shadow-[0_0_10px_#fff] md:text-xl xl:text-2xl"
+                                >Projects</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="px-2 transition duration-200 hover:text-white hover:drop-shadow-[0_0_10px_#fff] md:text-xl xl:text-2xl"
+                                >Skills</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="px-2 transition duration-200 hover:text-white hover:drop-shadow-[0_0_10px_#fff] md:text-xl xl:text-2xl"
+                                >About</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="px-2 transition duration-200 hover:text-white hover:drop-shadow-[0_0_10px_#fff] md:text-xl xl:text-2xl"
+                                >Contact</a
+                            >
+                        </li>
+                        <li
+                            class="h-[30px] w-[30px]"
+                        >
+                            <button class="cursor-pointer">
+                                <img
+                                    src="../assets/night.svg"
+                                    alt="night"
+                                    class="block dark:hidden"
+                                />
+                                <img
+                                    src="../assets/sun.svg"
+                                    alt="sun"
+                                    class="hidden dark:block"
+                                />
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- header end -->
+            <div
+                class="bg-light mx-auto max-w-7xl p-2 text-gray-800 shadow-[0px_0px_15px_rgb(0,0,0,0.3)] dark:bg-gray-950 dark:text-white"
+            >
+                <!-- hero start -->
+                <div class="border-b border-gray-300 dark:border-gray-900 xl:flex xl:h-[90vh]">
                     <div
-                        class="shadow-card mx-auto w-[320px] break-inside-avoid rounded-2xl bg-gray-950 p-2 text-white"
+                        class="flex w-full items-center justify-center p-4 xl:order-1"
                     >
-                        <div class="h-50">
+                        <img
+                            src="../assets/hero.JPG"
+                            alt="#"
+                            class="xl:max-w-auto h-full max-h-80 w-auto rounded-full shadow-md shadow-gray-900 xl:max-h-100"
+                        />
+                    </div>
+                    <div
+                        class="xl:max-w-3.5/5 flex flex-col items-start justify-start p-2 pr-3 md:text-xl xl:justify-center"
+                    >
+                        <p
+                            class="text-theme font-serif text-5xl md:text-7xl xl:text-9xl"
+                        >
+                            Ashikul Islam
+                        </p>
+                        <p class="mb-2 text-gray-500 lg:mb-4">
+                            Web Developer | React and Python Enthusiast
+                        </p>
+                        <p class="mb-4 text-justify lg:mb-7">
+                            <span class="text-effect text-2xl lg:text-4xl"
+                                >Hi,</span
+                            >
+                            I'm a programming enthusiast passionate about
+                            turning ideas into real-world web applications. Over
+                            the past 2 years, I've been actively learning and
+                            building projects in web development — sharpening my
+                            skills through consistent practice and self-driven
+                            development. <br />
+                            I'm now looking for opportunities to contribute to
+                            impactful projects, collaborate with real teams, and
+                            grow into a high-value developer in the tech
+                            industry.
+                        </p>
+                        <a
+                            href="#"
+                            class="bg-effect mb-3 rounded-full px-3 py-1 font-serif text-[1rem] font-semibold text-white shadow-[0_0_0_0_rgba(255,0,127,0)] transition duration-300 hover:scale-[1.1] hover:shadow-[0px_0px_20px_5px_rgb(255,0,127,0.4)]"
+                            >Download CV</a
+                        >
+                    </div>
+                </div>
+                <!-- hero end -->
+                
+                <!-- project start -->
+                <div class="border-b border-gray-300 dark:border-gray-900 py-4">
+                    <h1
+                        class="text-effect mb-4 text-center font-serif text-4xl font-bold"
+                    >
+                        PROJECTS
+                    </h1>
+                    <section
+                        class="mb-5 columns-1 gap-4 p-3 sm:columns-2 lg:columns-3"
+                    >
+                        <div
+                            class="shadow-card bg-light mx-auto w-[320px] break-inside-avoid rounded-2xl p-2 text-gray-700 transition duration-400 ease-in-out hover:scale-[1.03] dark:bg-gray-950 dark:text-gray-300"
+                        >
+                            <div class="h-50">
+                                <img
+                                    src="../assets/tik-tak-toe.JPG"
+                                    alt="Cover photo"
+                                    class="h-full w-full rounded-md"
+                                />
+                            </div>
+                            <section class="my-4">
+                                <h1 class="text-theme text-2xl font-bold">
+                                    Tik Tak Toe
+                                </h1>
+                                <p class="text-gray-500">
+                                    A simple two player tik tak toe game with
+                                    history tracking.
+                                </p>
+                                <h3
+                                    class="text-lg font-semibold text-gray-600 dark:text-gray-200"
+                                >
+                                    Features :
+                                </h3>
+                                <ul class="marker:text-effect list-disc">
+                                    <li class="ml-5">History tracking</li>
+                                </ul>
+                                <p class="">
+                                    <span
+                                        class="text-lg font-semibold text-gray-600 dark:text-gray-200"
+                                        >Techs :</span
+                                    >
+                                    React, Tailwind, useState(), Redux, Django,
+                                    PostgreSQL
+                                </p>
+                                <p class="text-green-500">
+                                    <span
+                                        class="text-lg font-semibold text-gray-600 dark:text-gray-200"
+                                        >status :</span
+                                    >
+                                    Complete
+                                </p>
+                            </section>
+                            <div class="mb-0.5 flex justify-around text-white">
+                                <a
+                                    class="rounded-full bg-green-700 px-3 py-0.5 font-serif shadow-[0px_0px_0px_0px_rgb(0,130,54,0.4)] transition duration-300 hover:shadow-[0px_0px_20px_5px_rgb(0,130,54,0.4)]"
+                                    href="#"
+                                    >Repo Link</a
+                                >
+                                <a
+                                    class="bg-effect rounded-full px-3 py-0.5 font-serif shadow-[0px_0px_0px_0px_rgb(255,0,127,0.4)] transition duration-300 hover:shadow-[0px_0px_20px_5px_rgb(255,0,127,0.4)]"
+                                    href="#"
+                                    >Live link</a
+                                >
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- project end -->
+                
+                <!-- skils start -->
+                <div class="border-b border-gray-300 dark:border-gray-900 p-4">
+                    <h1
+                        class="text-effect mb-4 text-center font-serif text-4xl font-bold"
+                    >
+                        SKILLS
+                    </h1>
+                    <section
+                        class="mx-auto mb-8 flex w-full flex-wrap justify-center gap-6 md:max-w-5xl"
+                    >
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
+                            <img src="../assets/skills/html-5.svg" alt="Html" />
+                        </div>
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
+                            <img src="../assets/skills/vite.svg" alt="Vite" />
+                        </div>
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
+                            <img src="../assets/skills/css.svg" alt="CSS" />
+                        </div>
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
                             <img
-                                src="../assets/tik-tak-toe.JPG"
-                                alt="Cover photo"
-                                class="h-full w-full rounded-md"
+                                src="../assets/skills/javascript.svg"
+                                alt="javascript"
                             />
                         </div>
-                        <div class="my-4">
-                            <h1 class="text-theme text-2xl font-bold">
-                                Tik Tak Toe
-                            </h1>
-                            <p class="text-gray-500">
-                                A simple two player tik tak toe game with
-                                history tracking.
-                            </p>
-                            <h3 class="text-lg font-semibold text-gray-200">
-                                Features :
-                            </h3>
-                            <ul class="marker:text-effect list-disc">
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                            </ul>
-                            <p class="text-gray-300">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >Techs :</span
-                                >
-                                React, Tailwind, useState(), Redux, Django,
-                                PostgreSQL
-                            </p>
-                            <p class="text-green-500">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >status :</span
-                                >
-                                Compolete
-                            </p>
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
+                            <img src="../assets/skills/react.svg" alt="react" />
                         </div>
-                        <div class="mb-0.5 flex justify-around">
-                            <a
-                                class="rounded-full bg-green-700 px-3 py-0.5 font-serif"
-                                href="#"
-                                >Repo Link</a
-                            >
-                            <a
-                                class="bg-effect rounded-full px-3 py-0.5 font-serif"
-                                href="#"
-                                >Live link</a
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="shadow-card mx-auto w-[320px] break-inside-avoid rounded-2xl bg-gray-950 p-2 text-white"
-                    >
-                        <div class="h-50">
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
                             <img
-                                src="../assets/tik-tak-toe.JPG"
-                                alt="Cover photo"
-                                class="h-full w-full rounded-md"
+                                src="../assets/skills/bootstrap.svg"
+                                alt="bootstrap"
                             />
                         </div>
-                        <div class="my-4">
-                            <h1 class="text-theme text-2xl font-bold">
-                                Tik Tak Toe
-                            </h1>
-                            <p class="text-gray-500">
-                                A simple two player tik tak toe game with
-                                history tracking.
-                            </p>
-                            <h3 class="text-lg font-semibold text-gray-200">
-                                Features :
-                            </h3>
-                            <ul class="marker:text-effect list-disc">
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                            </ul>
-                            <p class="text-gray-300">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >Techs :</span
-                                >
-                                React, Tailwind, useState(), Redux, Django,
-                                PostgreSQL
-                            </p>
-                            <p class="text-green-500">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >status :</span
-                                >
-                                Compolete
-                            </p>
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
+                            <img
+                                src="../assets/skills/tailwindcss.svg"
+                                alt="tailwindcss"
+                            />
                         </div>
-                        <div class="mb-0.5 flex justify-around">
-                            <a
-                                class="rounded-full bg-green-700 px-3 py-0.5 font-serif"
-                                href="#"
-                                >Repo Link</a
-                            >
-                            <a
-                                class="bg-effect rounded-full px-3 py-0.5 font-serif"
-                                href="#"
-                                >Live link</a
-                            >
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
+                            <img src="../assets/skills/git.svg" alt="git" />
                         </div>
-                    </div>
-                </section>
+                        <div
+                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                        >
+                            <img
+                                src="../assets/skills/github-light.svg"
+                                alt="github"
+                                class="block dark:hidden"
+                            />
+                            <img
+                                src="../assets/skills/github-dark.svg"
+                                alt="github"
+                                class="hidden dark:block"
+                            />
+                        </div>
+                    </section>
+                </div>
+                <!-- skills end -->
+                
+                <!-- About start -->
+                <div class="border-b border-gray-300 dark:border-gray-900 px-2 py-4">
+                    <h1
+                        class="text-effect mb-4 text-center font-serif text-4xl font-bold"
+                    >
+                        ABOUT ME
+                    </h1>
+                    <section class="text-lg sm:text-xl">
+                        <p class="mb-5">
+                            I'm a passionate web developer with a BSc in
+                            Computer Science & Engineering, currently diving
+                            deep into font-end development with React. I love
+                            building clean, scalable applications and constantly
+                            push myself to understand the inner workings of the
+                            technologies I use. I dream of becoming a full-stack
+                            developer and build modern solutions.
+                        </p>
+                        <h3 class="font-serif text-2xl lg:text-4xl">
+                            🎓 Education :
+                        </h3>
+                        <p class="mb-5">
+                            <strong
+                                >BSc in Computer Science & Engineering</strong
+                            ><br />
+                            [Dhaka International University] – Graduated June
+                            2024
+                        </p>
+                        <h3 class="font-serif text-2xl lg:text-4xl">
+                            🎯 Career Goal :
+                        </h3>
+                        <p class="mb-3">
+                            To join a forward-thinking team where I can solve
+                            real-world problems, grow alongside experienced
+                            developers, and help ship high-impact applications
+                            that make a difference.
+                        </p>
+                    </section>
+                </div>
+                <!-- About end -->
+                
+                <!-- Contact start -->
+                <div class="p-4">
+                    <section
+                        class="mx-auto mt-7 flex max-w-2xl flex-wrap justify-around border border-amber-500 py-5"
+                    >
+                        <div
+                            class="h-[25px] w-[25px] border border-amber-500"
+                        >A</div>
+                        <div
+                            class="h-[25px] w-[25px] border border-amber-500"
+                        >A</div>
+                        <div
+                            class="h-[25px] w-[25px] border border-amber-500"
+                        >A</div>
+                        <div
+                            class="h-[25px] w-[25px] border border-amber-500"
+                        >A</div>
+                    </section>
+                    <p class="text-center mt-5 text-gray-500">Copyright ©2025 | All rights reserved by Ashikul Islam</p>
+                </div>
+                <!-- Contact end -->
             </div>
-            <!-- project end -->
-
-            <!-- skils start -->
-            <div class="border-b border-gray-800 p-4">
-                <h1
-                    class="text-effect mb-4 text-center font-serif text-4xl font-bold"
-                >
-                    SKILLS
-                </h1>
-                <section
-                    class="mx-auto mb-8 flex w-full flex-wrap justify-center gap-6 md:max-w-5xl"
-                >
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img src="../assets/skills/html-5.svg" alt="Html" />
-                    </div>
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img src="../assets/skills/vite.svg" alt="Vite" />
-                    </div>
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img src="../assets/skills/css.svg" alt="CSS" />
-                    </div>
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img
-                            src="../assets/skills/javascript.svg"
-                            alt="javascript"
-                        />
-                    </div>
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img src="../assets/skills/react.svg" alt="react" />
-                    </div>
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img
-                            src="../assets/skills/bootstrap.svg"
-                            alt="bootstrap"
-                        />
-                    </div>
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img
-                            src="../assets/skills/tailwindcss.svg"
-                            alt="tailwindcss"
-                        />
-                    </div>
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img src="../assets/skills/git.svg" alt="git" />
-                    </div>
-                    <div
-                        class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
-                    >
-                        <img
-                            src="../assets/skills/github-light.svg"
-                            alt="github"
-                            class="block dark:hidden"
-                        />
-                        <img
-                            src="../assets/skills/github-dark.svg"
-                            alt="github"
-                            class="hidden dark:block"
-                        />
-                    </div>
-                </section>
-            </div>
-            <!-- skills start -->
-
-            <!-- About start -->
-            <div class="border-b border-gray-800 px-2 py-4">
-                <h1
-                    class="text-effect mb-4 text-center font-serif text-4xl font-bold"
-                >
-                    ABOUT ME
-                </h1>
-                <section class="text-lg sm:text-xl">
-                    <p class="mb-5">
-                        I'm a passionate web developer with a BSc in Computer
-                        Science & Engineering, currently diving deep into
-                        font-end development with React. I love building clean,
-                        scalable applications and constantly push myself to
-                        understand the inner workings of the technologies I use.
-                        I dream of becoming a full-stack developer and build
-                        modern solutions.
-                    </p>
-                    <h3 class="font-serif text-2xl lg:text-4xl">
-                        🎓 Education :
-                    </h3>
-                    <p class="mb-5">
-                        <strong>BSc in Computer Science & Engineering</strong
-                        ><br />
-                        [Dhaka International University] – Graduated June 2024
-                    </p>
-                    <h3 class="font-serif text-2xl lg:text-4xl">
-                        🎯 Career Goal :
-                    </h3>
-                    <p class="mb-3">
-                        To join a forward-thinking team where I can solve
-                        real-world problems, grow alongside experienced
-                        developers, and help ship high-impact applications that
-                        make a difference.
-                    </p>
-                </section>
-            </div>
-            <!-- About end -->
-
-            <!-- Contact start -->
-            <div class="p-4">
-                <h1
-                    class="text-effect mb-4 text-center font-serif text-4xl font-bold"
-                >
-                    CONTACT
-                </h1>
-                <section
-                    class="mx-auto mt-7 flex max-w-2xl flex-wrap justify-around border border-amber-500 py-5"
-                >
-                    <div
-                        class="h-[25px] w-[25px] border border-amber-500"
-                    ></div>
-                    <div
-                        class="h-[25px] w-[25px] border border-amber-500"
-                    ></div>
-                    <div
-                        class="h-[25px] w-[25px] border border-amber-500"
-                    ></div>
-                    <div
-                        class="h-[25px] w-[25px] border border-amber-500"
-                    ></div>
-                </section>
-            </div>
-            <!-- Contact end -->
         </div>
     </body>
 </html>
