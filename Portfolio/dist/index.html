@@ -6,10 +6,10 @@
         <title>Document</title>
         <link rel="stylesheet" href="./output.css" />
     </head>
-    <body class="bg-gray-700">
+    <body class="bg-gray-950">
         <!-- header start -->
         <header
-            class="border-light sticky top-0 w-full border-b bg-gray-950 text-white"
+            class="sticky top-0 w-full bg-gray-950/98 font-serif text-white shadow-md shadow-black"
         >
             <nav
                 class="mx-auto flex max-w-7xl flex-col items-center space-y-1.5 p-2 sm:flex-row sm:justify-between sm:py-4"
@@ -51,9 +51,11 @@
             </nav>
         </header>
         <!-- header end -->
-        <div class="mx-auto max-w-7xl bg-gray-950 p-2 text-white">
+        <div
+            class="mx-auto max-w-7xl bg-gray-950 p-2 text-white shadow-2xl shadow-black"
+        >
             <!-- hero start -->
-            <div class="border-b border-gray-800 xl:flex xl:h-[80vh]">
+            <div class="border-b border-gray-800 xl:flex xl:h-[90vh]">
                 <div
                     class="flex w-full items-center justify-center p-4 xl:order-1"
                 >
@@ -66,7 +68,9 @@
                 <div
                     class="xl:max-w-3.5/5 flex flex-col items-start justify-start p-2 pr-3 md:text-xl xl:justify-center"
                 >
-                    <p class="text-theme text-5xl md:text-7xl xl:text-9xl">
+                    <p
+                        class="text-theme font-serif text-5xl md:text-7xl xl:text-9xl"
+                    >
                         Ashikul Islam
                     </p>
                     <p class="mb-2 text-gray-500 lg:mb-4">
@@ -87,19 +91,22 @@
                     </p>
                     <a
                         href="#"
-                        class="bg-effect mb-3 rounded-full px-3 pt-0.5 pb-1.5 text-[1rem] font-semibold text-white"
+                        class="bg-effect mb-3 rounded-full px-3 py-1 font-serif text-[1rem] font-semibold text-white"
                         >Download CV</a
                     >
                 </div>
             </div>
             <!-- hero end -->
+
             <!-- project start -->
-            <div class="py-4">
-                <h1 class="text-effect mb-4 text-center text-4xl font-bold">
+            <div class="border-b border-gray-800 py-4">
+                <h1
+                    class="text-effect mb-4 text-center font-serif text-4xl font-bold"
+                >
                     PROJECTS
                 </h1>
                 <div
-                    class="columns-1 gap-4 bg-gradient-to-br from-gray-900 via-gray-950 to-black p-3 sm:columns-2 lg:columns-3"
+                    class="mb-5 columns-1 gap-4 bg-gradient-to-br from-gray-900 via-gray-950 to-black p-3 sm:columns-2 lg:columns-3"
                 >
                     <div
                         class="mx-auto w-[320px] break-inside-avoid rounded-2xl bg-gray-950 p-2 text-white shadow-md shadow-gray-900"
@@ -152,334 +159,14 @@
                                 Compolete
                             </p>
                         </div>
-                        <div class="flex justify-around">
+                        <div class="mb-0.5 flex justify-around">
                             <a
-                                class="rounded-full bg-green-500 px-3 pb-0.5"
+                                class="rounded-full bg-green-700 px-3 py-0.5 font-serif"
                                 href="#"
                                 >Repo Link</a
                             >
                             <a
-                                class="bg-effect rounded-full px-3 pb-0.5"
-                                href="#"
-                                >Live link</a
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="mx-auto my-5 w-[320px] break-inside-avoid rounded-2xl bg-gray-950 p-2 text-white shadow-md shadow-gray-900"
-                    >
-                        <div class="h-50">
-                            <img
-                                src="../assets/tik-tak-toe.JPG"
-                                alt="Cover photo"
-                                class="h-full w-full rounded-md"
-                            />
-                        </div>
-                        <div class="my-4">
-                            <h1 class="text-theme text-2xl font-bold">
-                                Tik Tak Toe
-                            </h1>
-                            <p class="text-gray-500">
-                                A simple two player tik tak toe game with
-                                history tracking.
-                            </p>
-                            <h3 class="text-lg font-semibold text-gray-200">
-                                Features :
-                            </h3>
-                            <ul class="marker:text-effect list-disc">
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                            </ul>
-                            <p class="text-gray-300">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >Techs :</span
-                                >
-                                React, Tailwind, useState(), Redux, Django,
-                                PostgreSQL
-                            </p>
-                            <p class="text-green-500">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >status :</span
-                                >
-                                Compolete
-                            </p>
-                        </div>
-                        <div class="flex justify-around">
-                            <a
-                                class="rounded-full bg-green-500 px-3 pb-0.5"
-                                href="#"
-                                >Repo Link</a
-                            >
-                            <a
-                                class="bg-effect rounded-full px-3 pb-0.5"
-                                href="#"
-                                >Live link</a
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="mx-auto my-5 w-[320px] break-inside-avoid rounded-2xl bg-gray-950 p-2 text-white shadow-md shadow-gray-900"
-                    >
-                        <div class="h-50">
-                            <img
-                                src="../assets/tik-tak-toe.JPG"
-                                alt="Cover photo"
-                                class="h-full w-full rounded-md"
-                            />
-                        </div>
-                        <div class="my-4">
-                            <h1 class="text-theme text-2xl font-bold">
-                                Tik Tak Toe
-                            </h1>
-                            <p class="text-gray-500">
-                                A simple two player tik tak toe game with
-                                history tracking.
-                            </p>
-                            <h3 class="text-lg font-semibold text-gray-200">
-                                Features :
-                            </h3>
-                            <ul class="marker:text-effect list-disc">
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                            </ul>
-                            <p class="text-gray-300">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >Techs :</span
-                                >
-                                React, Tailwind, useState(), Redux, Django,
-                                PostgreSQL
-                            </p>
-                            <p class="text-green-500">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >status :</span
-                                >
-                                Compolete
-                            </p>
-                        </div>
-                        <div class="flex justify-around">
-                            <a
-                                class="rounded-full bg-green-500 px-3 pb-0.5"
-                                href="#"
-                                >Repo Link</a
-                            >
-                            <a
-                                class="bg-effect rounded-full px-3 pb-0.5"
-                                href="#"
-                                >Live link</a
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="mx-auto my-5 w-[320px] break-inside-avoid rounded-2xl bg-gray-950 p-2 text-white shadow-md shadow-gray-900"
-                    >
-                        <div class="h-50">
-                            <img
-                                src="../assets/tik-tak-toe.JPG"
-                                alt="Cover photo"
-                                class="h-full w-full rounded-md"
-                            />
-                        </div>
-                        <div class="my-4">
-                            <h1 class="text-theme text-2xl font-bold">
-                                Tik Tak Toe
-                            </h1>
-                            <p class="text-gray-500">
-                                A simple two player tik tak toe game with
-                                history tracking.
-                            </p>
-                            <h3 class="text-lg font-semibold text-gray-200">
-                                Features :
-                            </h3>
-                            <ul class="marker:text-effect list-disc">
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                            </ul>
-                            <p class="text-gray-300">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >Techs :</span
-                                >
-                                React, Tailwind, useState(), Redux, Django,
-                                PostgreSQL
-                            </p>
-                            <p class="text-green-500">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >status :</span
-                                >
-                                Compolete
-                            </p>
-                        </div>
-                        <div class="flex justify-around">
-                            <a
-                                class="rounded-full bg-green-500 px-3 pb-0.5"
-                                href="#"
-                                >Repo Link</a
-                            >
-                            <a
-                                class="bg-effect rounded-full px-3 pb-0.5"
-                                href="#"
-                                >Live link</a
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="mx-auto my-5 w-[320px] break-inside-avoid rounded-2xl bg-gray-950 p-2 text-white shadow-md shadow-gray-900"
-                    >
-                        <div class="h-50">
-                            <img
-                                src="../assets/tik-tak-toe.JPG"
-                                alt="Cover photo"
-                                class="h-full w-full rounded-md"
-                            />
-                        </div>
-                        <div class="my-4">
-                            <h1 class="text-theme text-2xl font-bold">
-                                Tik Tak Toe
-                            </h1>
-                            <p class="text-gray-500">
-                                A simple two player tik tak toe game with
-                                history tracking.
-                            </p>
-                            <h3 class="text-lg font-semibold text-gray-200">
-                                Features :
-                            </h3>
-                            <ul class="marker:text-effect list-disc">
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                            </ul>
-                            <p class="text-gray-300">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >Techs :</span
-                                >
-                                React, Tailwind, useState(), Redux, Django,
-                                PostgreSQL
-                            </p>
-                            <p class="text-green-500">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >status :</span
-                                >
-                                Compolete
-                            </p>
-                        </div>
-                        <div class="flex justify-around">
-                            <a
-                                class="rounded-full bg-green-500 px-3 pb-0.5"
-                                href="#"
-                                >Repo Link</a
-                            >
-                            <a
-                                class="bg-effect rounded-full px-3 pb-0.5"
-                                href="#"
-                                >Live link</a
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="mx-auto my-5 w-[320px] break-inside-avoid rounded-2xl bg-gray-950 p-2 text-white shadow-md shadow-gray-900"
-                    >
-                        <div class="h-50">
-                            <img
-                                src="../assets/tik-tak-toe.JPG"
-                                alt="Cover photo"
-                                class="h-full w-full rounded-md"
-                            />
-                        </div>
-                        <div class="my-4">
-                            <h1 class="text-theme text-2xl font-bold">
-                                Tik Tak Toe
-                            </h1>
-                            <p class="text-gray-500">
-                                A simple two player tik tak toe game with
-                                history tracking.
-                            </p>
-                            <h3 class="text-lg font-semibold text-gray-200">
-                                Features :
-                            </h3>
-                            <ul class="marker:text-effect list-disc">
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                                <li class="ml-5 text-gray-300">
-                                    History tracking
-                                </li>
-                            </ul>
-                            <p class="text-gray-300">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >Techs :</span
-                                >
-                                React, Tailwind, useState(), Redux, Django,
-                                PostgreSQL
-                            </p>
-                            <p class="text-green-500">
-                                <span
-                                    class="text-lg font-semibold text-gray-200"
-                                    >status :</span
-                                >
-                                Compolete
-                            </p>
-                        </div>
-                        <div class="flex justify-around">
-                            <a
-                                class="rounded-full bg-green-500 px-3 pb-0.5"
-                                href="#"
-                                >Repo Link</a
-                            >
-                            <a
-                                class="bg-effect rounded-full px-3 pb-0.5"
+                                class="bg-effect rounded-full px-3 py-0.5 font-serif"
                                 href="#"
                                 >Live link</a
                             >
@@ -488,6 +175,44 @@
                 </div>
             </div>
             <!-- project end -->
+
+            <!-- About start -->
+            <div class="px-2 py-4">
+                <h2
+                    class="text-effect mb-4 text-center font-serif text-4xl font-bold"
+                >
+                    ABOUT ME
+                </h2>
+                <section class="text-lg sm:text-xl">
+                    <p class="mb-5">
+                        I'm a passionate web developer with a BSc in Computer
+                        Science & Engineering, currently diving deep into
+                        font-end development with React. I love building clean,
+                        scalable applications and constantly push myself to
+                        understand the inner workings of the technologies I use.
+                        I dream of becoming a full-stack developer and build
+                        modern solutions.
+                    </p>
+                    <h3 class="font-serif text-2xl lg:text-4xl">
+                        🎓 Education :
+                    </h3>
+                    <p class="mb-5">
+                        <strong>BSc in Computer Science & Engineering</strong
+                        ><br />
+                        [Dhaka International University] – Graduated June 2024
+                    </p>
+                    <h3 class="font-serif text-2xl lg:text-4xl">
+                        🎯 Career Goal :
+                    </h3>
+                    <p class="mb-3">
+                        To join a forward-thinking team where I can solve
+                        real-world problems, grow alongside experienced
+                        developers, and help ship high-impact applications that
+                        make a difference.
+                    </p>
+                </section>
+            </div>
+            <!-- About end -->
         </div>
     </body>
 </html>
