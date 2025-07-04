@@ -2,6 +2,7 @@
 
 @theme {
     --color-theme: #00bfff;
-    --color-light: #F3F4F6;
-    --color-effect: #FF007F;
+    --color-light: #f3f4f6;
+    --color-effect: #ff007f;
+    --shadow-card: 4px 4px 12px rgba(0, 0, 0, 0.5);
 }
