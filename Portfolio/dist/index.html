@@ -8,7 +8,7 @@
     </head>
     <body>
         <!-- header start -->
-        <div class="bg-white h-full w-full dark:bg-gray-950">
+        <div class="h-full w-full bg-white dark:bg-gray-950">
             <header
                 class="sticky top-0 w-full font-serif text-gray-100 dark:text-gray-200"
             >
@@ -22,7 +22,7 @@
                             >PORTFOLIO</a
                         >
                     </div>
-                    <ul class="flex space-x-2 lg:space-x-5 items-center">
+                    <ul class="flex items-center space-x-2 lg:space-x-5">
                         <li>
                             <a
                                 href="#"
@@ -51,9 +51,7 @@
                                 >Contact</a
                             >
                         </li>
-                        <li
-                            class="h-[30px] w-[30px]"
-                        >
+                        <li class="h-[30px] w-[30px]">
                             <button class="cursor-pointer">
                                 <img
                                     src="../assets/night.svg"
@@ -75,7 +73,9 @@
                 class="bg-light mx-auto max-w-7xl p-2 text-gray-800 shadow-[0px_0px_15px_rgb(0,0,0,0.3)] dark:bg-gray-950 dark:text-white"
             >
                 <!-- hero start -->
-                <div class="border-b border-gray-300 dark:border-gray-900 xl:flex xl:h-[90vh]">
+                <div
+                    class="border-b border-gray-300 xl:flex xl:h-[90vh] dark:border-gray-900"
+                >
                     <div
                         class="flex w-full items-center justify-center p-4 xl:order-1"
                     >
@@ -119,9 +119,9 @@
                     </div>
                 </div>
                 <!-- hero end -->
-                
+
                 <!-- project start -->
-                <div class="border-b border-gray-300 dark:border-gray-900 py-4">
+                <div class="border-b border-gray-300 py-4 dark:border-gray-900">
                     <h1
                         class="text-effect mb-4 text-center font-serif text-4xl font-bold"
                     >
@@ -131,7 +131,7 @@
                         class="mb-5 columns-1 gap-4 p-3 sm:columns-2 lg:columns-3"
                     >
                         <div
-                            class="shadow-card bg-light mx-auto w-[320px] break-inside-avoid rounded-2xl p-2 text-gray-700 transition duration-400 ease-in-out hover:scale-[1.03] dark:bg-gray-950 dark:text-gray-300"
+                            class="shadow-card bg-light mx-auto w-[320px] break-inside-avoid rounded-2xl border-[rgb(31,132,255,0.3)] p-2 text-gray-700 transition duration-300 ease-in-out hover:border hover:border-[rgb(31,132,255,0.3)] hover:shadow-[0px_0px_15px_2px_rgb(31,132,255,0.4)] dark:bg-gray-950 dark:text-gray-300"
                         >
                             <div class="h-50">
                                 <img
@@ -188,9 +188,9 @@
                     </section>
                 </div>
                 <!-- project end -->
-                
+
                 <!-- skils start -->
-                <div class="border-b border-gray-300 dark:border-gray-900 p-4">
+                <div class="border-b border-gray-300 p-4 dark:border-gray-900">
                     <h1
                         class="text-effect mb-4 text-center font-serif text-4xl font-bold"
                     >
@@ -200,56 +200,96 @@
                         class="mx-auto mb-8 flex w-full flex-wrap justify-center gap-6 md:max-w-5xl"
                     >
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img src="../assets/skills/html-5.svg" alt="Html" />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                HTML5
+                            </p>
                         </div>
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img src="../assets/skills/vite.svg" alt="Vite" />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                Vite
+                            </p>
                         </div>
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img src="../assets/skills/css.svg" alt="CSS" />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                CSS
+                            </p>
                         </div>
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img
                                 src="../assets/skills/javascript.svg"
                                 alt="javascript"
                             />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                Javascript
+                            </p>
                         </div>
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img src="../assets/skills/react.svg" alt="react" />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                React
+                            </p>
                         </div>
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img
                                 src="../assets/skills/bootstrap.svg"
                                 alt="bootstrap"
                             />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                Bootstrap
+                            </p>
                         </div>
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img
                                 src="../assets/skills/tailwindcss.svg"
                                 alt="tailwindcss"
                             />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                Tailwind
+                            </p>
                         </div>
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img src="../assets/skills/git.svg" alt="git" />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                Git
+                            </p>
                         </div>
                         <div
-                            class="shadow-card h-[100px] w-[100px] rounded-2xl p-2"
+                            class="shadow-card flex h-auto w-[100px] flex-col justify-between rounded-2xl p-2"
                         >
                             <img
                                 src="../assets/skills/github-light.svg"
@@ -261,13 +301,20 @@
                                 alt="github"
                                 class="hidden dark:block"
                             />
+                            <p
+                                class="text-center text-gray-700 dark:text-gray-300"
+                            >
+                                GitHub
+                            </p>
                         </div>
                     </section>
                 </div>
                 <!-- skills end -->
-                
+
                 <!-- About start -->
-                <div class="border-b border-gray-300 dark:border-gray-900 px-2 py-4">
+                <div
+                    class="border-b border-gray-300 px-2 py-4 dark:border-gray-900"
+                >
                     <h1
                         class="text-effect mb-4 text-center font-serif text-4xl font-bold"
                     >
@@ -305,26 +352,21 @@
                     </section>
                 </div>
                 <!-- About end -->
-                
+
                 <!-- Contact start -->
                 <div class="p-4">
                     <section
                         class="mx-auto mt-7 flex max-w-2xl flex-wrap justify-around border border-amber-500 py-5"
                     >
                         <div
-                            class="h-[25px] w-[25px] border border-amber-500"
-                        >A</div>
-                        <div
-                            class="h-[25px] w-[25px] border border-amber-500"
-                        >A</div>
-                        <div
-                            class="h-[25px] w-[25px] border border-amber-500"
-                        >A</div>
-                        <div
-                            class="h-[25px] w-[25px] border border-amber-500"
-                        >A</div>
+                            class="hover:text-effect h-[25px] w-[25px] border border-amber-500 transition-all duration-300 hover:shadow-[0px_0px_15px_5px_rgb(255,0,127,0.4)]"
+                        >
+                            A
+                        </div>
                     </section>
-                    <p class="text-center mt-5 text-gray-500">Copyright ©2025 | All rights reserved by Ashikul Islam</p>
+                    <p class="mt-5 text-center text-gray-500">
+                        Copyright ©2025 | All rights reserved by Ashikul Islam
+                    </p>
                 </div>
                 <!-- Contact end -->
             </div>
